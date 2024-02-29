@@ -11,8 +11,6 @@ builder.Services.AddSwaggerGen();
 
 AddAndConfigureApplicationInsightsTelemetry(builder.Services, builder.Configuration);
 
-//var sp = new ServiceProvider();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
